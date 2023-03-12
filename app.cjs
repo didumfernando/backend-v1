@@ -7,7 +7,7 @@ const Rating = require("./db/ratingsModel.cjs");
 const Articals = require("./db/articalModel.cjs");
 var cors = require("cors"); 
 
-console.log(process.env.DB_URL);
+
 dbConnect();
 
 
